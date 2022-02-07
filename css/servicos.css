@@ -1,0 +1,74 @@
+body {
+    /* background-color: #efefef; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page content */
+/* section #contabilidade, #gestao, #outsourcing, #consultoria */
+
+h5 {
+    text-transform: capitalize;
+}
+
+.parallax-bg-1, .parallax-bg-2, .parallax-bg-3, .parallax-bg-4 {
+    padding-top: 15rem;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all linear;
+    -moz-transition: all linear;
+    transition: all linear;
+    font-weight: 500;
+}
+
+.parallax-bg-1 {
+    opacity: 1;
+    background-image: url(../imagens/consulting.png);
+}
+
+.parallax-bg-2 {
+    opacity: 1;
+    background-image: url(../imagens/consulting1.jpg);
+}
+
+.parallax-bg-3 {
+    opacity: 1;
+    background-image: url(../imagens/consulting2.png);
+}
+
+.parallax-bg-4 {
+    opacity: 1;
+    background-image: url(../imagens/consulting3.jpg);
+}
+
+.card-group {
+    margin: 0 2rem;
+}
+
+.card {
+    background-color: rgb(206, 181, 37);
+}
+
+.card-body {
+    color: #efefef;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+/*
+Desligar parallax scrolling tablets e smartphones  */
+@media only screen and (max-width: 1024px) {
+    .parallax-bg-1, .parallax-bg-2, .parallax-bg-3, .parallax-bg-4 {
+    background-attachment: scroll;
+    background-position: center center !important;
+    }
+    .service-title {
+        padding: 0;
+    }
+}
+
+
